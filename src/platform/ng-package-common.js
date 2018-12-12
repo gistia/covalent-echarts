@@ -8,7 +8,8 @@ module.exports =
       "@covalent/echarts/bar": "covalent.echarts.bar",
       "@covalent/echarts/line": "covalent.echarts.line",
       "@covalent/echarts/scatter": "covalent.echarts.scatter",
-      "@covalent/echarts/tooltip": "covalent.echarts.tooltip"
+      "@covalent/echarts/tooltip": "covalent.echarts.tooltip",
+      "@covalent/echarts/themes": "covalent.echarts.themes"
     }
   },
   "whitelistedNonPeerDependencies":  ["."],
