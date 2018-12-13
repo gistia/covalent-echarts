@@ -1,5 +1,3 @@
-import * as echarts from 'echarts/lib/echarts';
-
 import azureKhaki from './json-themes/td-azure-khaki.project.json';
 import azureTeal from './json-themes/td-azure-teal.project.json';
 import azure from './json-themes/td-azure.project.json';
@@ -13,14 +11,7 @@ import teradataExtended3 from './json-themes/teradata-extended-3.project.json';
 import teradataExtended4 from './json-themes/teradata-extended-4.project.json';
 import teradataExtended from './json-themes/teradata-extended.project.json';
 
-/**
- * Function used to register a theme into echarts
- * Theme name and theme object needed as stated in
- * https://ecomfe.github.io/echarts-doc/public/en/api.html#echarts.registerTheme
- */
-export function registerTheme(themeName: string, theme: Object): void {
-  echarts.registerTheme(themeName, theme);
-}
+import { registerTheme } from '../base';
 
 /**
  * Function to register all default themes
