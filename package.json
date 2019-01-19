@@ -81,6 +81,7 @@
     "classlist.js": "^1.1.20150312",
     "core-js": "^2.5.4",
     "echarts": "4.2.0-rc.2",
+    "echarts-wordcloud": "^1.1.3",
     "hammerjs": "^2.0.8",
     "highlight.js": "9.13.1",
     "rxjs": "6.3.3",

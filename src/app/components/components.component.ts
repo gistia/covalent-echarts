@@ -18,7 +18,7 @@ import { tdCollapseAnimation, tdRotateAnimation, tdFadeInOutAnimation } from '@c
   animations: [tdCollapseAnimation, tdRotateAnimation, tdFadeInOutAnimation],
 })
 export class ComponentsComponent {
-  
+
   miniNav: boolean = false;
 
   routes: Object[] = [
@@ -51,6 +51,11 @@ export class ComponentsComponent {
       icon: 'dashboard',
       route: ['types', 'treemap'],
       title: 'Treemap',
+    },
+    {
+      icon: 'cloud',
+      route: ['types', 'wordcloud'],
+      title: 'Wordcloud',
     },
     {
       icon: 'call_split',

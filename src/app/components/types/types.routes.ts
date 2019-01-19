@@ -6,6 +6,7 @@ import { TypesScatterComponent } from './scatter/scatter.component';
 import { TypesCombinationComponent } from './combination/combination.component';
 import { TypesTreeComponent } from './tree/tree.component';
 import { TypesTreemapComponent } from './treemap/treemap.component';
+import { TypesWordcloudComponent } from './wordcloud/wordcloud.component';
 import { TypesSankeyComponent } from './sankey/sankey.component';
 import { TypesGraphComponent } from './graph/graph.component';
 
@@ -35,6 +36,10 @@ const routes: Routes = [{
   {
     component: TypesTreemapComponent,
     path: 'treemap',
+  },
+  {
+    component: TypesWordcloudComponent,
+    path: 'wordcloud',
   },
 ];
 
