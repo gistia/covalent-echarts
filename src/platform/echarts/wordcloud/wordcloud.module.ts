@@ -1,7 +1,7 @@
 import { NgModule, Type } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import 'echarts-wordcloud';
+import './echarts-wordcloud';
 
 import { TdChartSeriesWordcloudComponent } from './wordcloud.component';
 
