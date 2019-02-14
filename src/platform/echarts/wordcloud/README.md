@@ -48,19 +48,19 @@ export class MyModule {}
 Basic Example:
 
 ```html
-<td-chart>
+<td-chart [style.height.px]="500">
   <td-chart-series td-wordcloud
                   [shape]="circle"
                   [sizeRange]="[12, 60]"
-                  [rotationRange]="[-90, 90]",
-                  [rotationStep]="45",
+                  [rotationRange]="[-90, 90]"
+                  [rotationStep]="45"
                   [gridSize]="8"
                   [drawOutOfBound]="false"
                   [textStyle]="{
                     normal: {
                       fontFamily: 'sans-serif',
                       fontWeight: 'bold',
-                      color: '#ccc',
+                      color: '#ccc'
                     },
                     emphasis: {
                       shadowBlur: 10,
@@ -68,12 +68,22 @@ Basic Example:
                     }
                   }"
                   [data]="[{
-                    name: 'Farrah Abraham',
-                    value: 366,
+                    name: 'Benjamin Abraham',
+                    value: 320,
                     textStyle: {
-                      normal: {},
+                      normal: {
+                        fontFamily: 'arial',
+                        fontWeight: '100',
+                        color: 'red'
+                      },
                       emphasis: {}
                     }
+                  },{
+                    name: 'Mary Stuart',
+                    value: 366
+                  },{
+                    name: 'John Doe',
+                    value: 350
                   }]">
   </td-chart-series>
 </td-chart>
