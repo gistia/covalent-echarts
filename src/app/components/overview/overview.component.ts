@@ -58,6 +58,12 @@ export class OverviewComponent {
     route: ['types', 'graph'],
     title: 'Graph Chart',
   },
+  {
+    color: 'deep-orange-A700',
+    icon: 'map',
+    route: ['types', 'map'],
+    title: 'Map Chart',
+  },
 ];
 
 atomicComponents: Object[] = [
@@ -78,6 +84,12 @@ atomicComponents: Object[] = [
     icon: 'art_track',
     route: ['atomic', 'toolbox'],
     title: 'Toolbox',
+  },
+  {
+    color: 'purple-500',
+    icon: 'view_list',
+    route: ['atomic', 'dataset'],
+    title: 'Dataset',
   },
 ];
 

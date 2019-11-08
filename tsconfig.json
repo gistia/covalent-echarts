@@ -23,6 +23,8 @@
     "noUnusedLocals": false,
     "allowUnreachableCode": false,
     "pretty": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   }
 }
